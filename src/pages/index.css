@@ -63,6 +63,11 @@
 
 @media (max-width: 560px) {
   .readme-container {
-    margin-top: 230px;
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
   }
 }
