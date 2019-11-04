@@ -19,7 +19,7 @@ const HighlightedLink = ({ children, link, colour }) => {
         className={ hover ? "hover" : null }
         style={ hover ? { backgroundColor: colour }
                       : { color: colour }}
-    >
+      >
         { children }
       </a>
     ) : (

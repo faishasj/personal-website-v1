@@ -51,3 +51,28 @@
         margin-right: 0;
     }
 }
+
+@media (max-width: 460px) {
+    .projects-container {
+        max-width: 300px;
+    }
+    
+    .project {
+        display: block;
+        width: 300px;
+        height: 175px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .project img {
+        max-width: 300px;
+        max-height: 175px;
+    }
+
+    .project .description {
+        top: 0px;
+        font-size: 12px;
+        opacity: 1;
+    }
+}

@@ -46,7 +46,7 @@
 @media (max-width: 900px) {
   .readme-container {
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 100px;
     padding-bottom: 50px;
   }
 
@@ -58,5 +58,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .readme-container {
+    margin-top: 230px;
   }
 }

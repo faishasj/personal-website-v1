@@ -28,3 +28,14 @@
   text-decoration: none;
   color: white;
 }
+
+.site-name {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+@media (max-width: 455px) {
+  .navbar li {
+    padding: 5px 6px;
+  }
+}

@@ -8,7 +8,7 @@ import "./header.css"
 
 const NavItem = ({ children, emoji, link, colour }) => {
   return (
-    <li>
+    <li class="nav-item">
       <span style={{ cursor: 'default' }}>{ emoji }&nbsp;</span>
       <HighlightedLink
         link={ link }
@@ -22,11 +22,7 @@ const NavItem = ({ children, emoji, link, colour }) => {
 
 const Header = () => (
   <ul class="navbar">
-    <li
-      class="site-name"
-      style={{ fontSize: '21px',
-                fontWeight: '700' }}
-    >
+    <li class="site-name">
       <a href="/">faisha.dev</a>
     </li>
     <NavItem 
