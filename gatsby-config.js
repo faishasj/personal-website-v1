@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `faisha.dev`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Faisha Surjatin, CS undergrad and AR/VR developer in Melbourne.`,
+    author: `@faishasj`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
