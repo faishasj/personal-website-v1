@@ -52,7 +52,7 @@ const Header = () => (
     </NavItem>
     <NavItem
       emoji="👩‍💻"
-      link="https://blog.faisha.dev"
+      link="https://faishasj.github.io/blog"
       colour={ COLOURS.highlightOrange }
     >
       blog
