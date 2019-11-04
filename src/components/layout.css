@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #141414;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+@media (max-width: 900px) {
+  .partially-hidden-bg {
+      opacity: 0.25;
+  }
+  .hidden-bg {
+      visibility: hidden;
+  }
+}

@@ -1,0 +1,6 @@
+.hover {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}

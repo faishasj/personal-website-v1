@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  margin: 0px 0px 0px 5px;
+  padding: 0;
+  padding-top: 10px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, #141414, rgba(20,20,20,0.8), rgba(255,0,0,0));
+  list-style-type: none;
+}
+
+.navbar li {
+  display: block;
+  float: left;
+  padding: 5px 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.navbar li Link {
+  text-decoration: underline;
+}
+
+.navbar .site-name a {
+  text-decoration: none;
+  color: white;
+}

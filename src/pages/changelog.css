@@ -1,0 +1,43 @@
+.changelog-container {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.timeline-group {
+  padding-left: 25px;
+  padding-bottom: 30px;
+  border-left: 3px solid white;
+}
+
+.version {
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.circle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  margin-left: -35px;
+  margin-top: 9px;
+  background-color: #141414;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.timeline-item {
+  padding: 5px 0px 5px 0px;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  div.changelog-container {
+    max-width: 420px;
+  }
+}

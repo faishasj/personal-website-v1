@@ -1,0 +1,78 @@
+.command {
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: writeCommand 1.5s steps(15, end), blink .5s step-end 5 alternate;
+  animation: writeCommand 1.5s steps(15, end), blink .5s step-end 5 alternate;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.children {
+  opacity: 0;
+  animation: showChildren 0s 3s forwards;
+  -webkit-animation: showChildren 0s 3s forwards;
+}
+
+.caret {
+  border-right: 2px solid white;
+  width: 15px;
+  -webkit-animation: blink .5s step-end infinite alternate;
+  animation: blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+
+@keyframes showChildren {
+  to { 
+    opacity: 1; 
+  }
+}
+
+@-webkit-keyframes showChildren {
+  to { 
+    opacity: 1; 
+  }
+}
+
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+  100% {
+      border-color: transparent;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+      border-color: tranparent;
+  }
+}
+
+@keyframes writeCommand {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes writeCommand {
+  0% {
+      width: 0;
+  }
+  1% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 1;
+  }
+}
