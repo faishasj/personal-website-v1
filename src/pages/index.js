@@ -33,7 +33,7 @@ const ReadmePage = () => {
           </div>
           <div class="bio-snippet">
             <p class="title">Faisha Surjatin</p>
-            <p class="caption">Computer science undergrad and AR/VR developer at Monash University. All-round computer science nerd. Not a web dev.</p>
+            <p class="caption">CS Advanced (Hons) undergrad and AR/VR developer at Monash University. All-round computer science nerd. Not a web dev.</p>
             <div class="socials">
               <a href="https://github.com/faishasj"><FontAwesomeIcon icon={faGithub}/></a>&nbsp;
               <a href="https://twitter.com/faishasj"><FontAwesomeIcon icon={faTwitter}/></a>&nbsp;
@@ -44,9 +44,9 @@ const ReadmePage = () => {
         </div>
         <div class="right">
           <TerminalText command="$ cat readme.md">
-            <p>Hello, World! My name is Faisha and I am a programmer and computer science undergrad.</p>
-            <p>I'm into all things tech, electronics, autonomous cars, and diversity in tech. And if you can't tell, I really like spirographs.</p>
-            <p>When I’m not deep into having an existential crisis, I’m starting another side project that will inevitably be forgotten.</p>
+            <p>Hello, World! My name is Faisha and I am a programmer and third year CS Advanced (Hons) undergrad.</p>
+            <p>I'm into all things CS research, electronics, and supporting diversity in tech! And if you can't tell, I really like spirographs.</p>
+            <p>When I’m not too deep into having an existential crisis, I’m starting another side project that will inevitably be forgotten.</p>
           </TerminalText>
         </div>
       </div>
