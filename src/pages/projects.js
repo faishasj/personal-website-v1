@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import { COLOURS } from "../constants"
 import "./projects.css"
 
+import IntersectImage from "../images/intersect.gif"
 import SpirographImage from "../images/spiro_cap.gif"
 import CPParticlesImage from "../images/cpparticles.gif"
 
@@ -41,6 +42,18 @@ const ProjectsPage = () => (
       <TerminalText command="$ ls projects">
         <div class="row">
           <Project
+            image={ IntersectImage }
+            title="intersect"
+            link="https://devpost.com/software/intersect-yovc56"
+            colour={ COLOURS.highlightGreen }
+          >
+            <p>My first hackathon! An economical IoT solution that upgrades 
+            existing road infrastructure to dynamically improve traffic flow using 
+            machine learning.</p><p>I worked on back-end computer vision, 
+            using OpenCV image processing to analyse lane traffic.
+            </p>
+          </Project>
+          <Project
             image={ CPParticlesImage }
             title="cpparticles"
             link="https://github.com/faishasj/cpparticles"
@@ -50,6 +63,8 @@ const ProjectsPage = () => (
             demo programs.</p><p>Includes rigid body dynamics, soft body dynamics 
             (using the mass-spring model) and collision detection.</p>
           </Project>
+        </div>
+        <div>
           <Project
             image={ SpirographImage }
             title="spirograph"

@@ -45,7 +45,7 @@ const ChangelogPage = () => (
         <div class="timeline">
         <TimelineGroup version="v20.1.0">
             <TimelineItem tag="Career">Brought on to continue working as an AR/VR developer and making 
-            exciting and valuable XR applications at Monash University. 🙌</TimelineItem>
+            exciting and valuable XR applications at Monash University. 💡</TimelineItem>
           </TimelineGroup>
           <TimelineGroup version="v19.7.6">
             <TimelineItem tag="Education">Interned at Monash University as an AR/VR developer, 
